@@ -5,4 +5,4 @@ except FileNotFoundError:
 else:
     print("Файл прочитано!")
     f.close()
-    print("Файл закрито!")
+    print("Файл закрито!") 
