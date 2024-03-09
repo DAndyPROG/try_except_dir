@@ -1,6 +1,6 @@
 # Реалізуйте програму, яка копіює вміст одного файлу в інший.
 
-def copy_file_text(file1, file2):
+def copy_file_text(file1, file2): 
     try:
         with open(file1, 'r') as f1:
             with open(file2, 'w') as f2:
