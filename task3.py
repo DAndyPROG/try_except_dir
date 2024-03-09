@@ -1,5 +1,5 @@
 try:
-    number1 = input('Введіть перше число: ')
+    number1 = input('Введіть перше число: ') 
     number2 = int(input('Введіть друге число: '))
 
     print(number1 + number2)
