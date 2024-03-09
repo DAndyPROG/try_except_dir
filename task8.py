@@ -1,6 +1,6 @@
 def lst_numbers():
     try:
-        input_numbers = input('Введіть список чисел, розділяючи їх комами: ').split(',')
+        input_numbers = input('Введіть список чисел, розділяючи їх комами: ').split(',') 
         
         numbers = list(map(int, input_numbers))
         for number in input_numbers:
