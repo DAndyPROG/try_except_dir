@@ -1,4 +1,4 @@
-def write_string(file_name):
+def write_string(file_name): 
     try:
         write_str = input('Напишіть фразу: ')
         with open(file_name, 'w') as file:
